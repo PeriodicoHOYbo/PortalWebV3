@@ -15,7 +15,7 @@ import Header from '../components/Header'
 import styles from '../styles/Home.module.css'
 import { handleSignOut } from '../firebase/utils'
 import { uploadIMG } from '../firebase/storage'
-import { useRouter,usePathname } from 'next/navigation'
+import { useRouter, usePathname } from 'next/navigation'
 import { useEffect, useState } from 'react'
 import { listAll } from 'firebase/storage'
 import Temporizador from '../components/Temporizador'
@@ -162,17 +162,21 @@ function Home() {
 
           {showImg == false && showVideo == false && <>
             <Section topic="Inicio" publicView={true} color=''></Section>
+            <video width="750" height="500" controls autoPlay={true} >
+              <source src='/publicidad.mp4' type="video/mp4" />
+            </video>
+            
             <Section topic="Sociedad" publicView={true} color=''></Section>
-{/*             <Section topic="Salud" publicView={true} color=''></Section> */}
+            {/*             <Section topic="Salud" publicView={true} color=''></Section> */}
             <Section topic="Seguridad" publicView={true} color=''></Section>
             <Section topic="Politica" publicView={true} color=''></Section>
             <Section topic="Economia" publicView={true} color=''></Section>
             <Section topic="Deportes" publicView={true} color=''></Section>
-{/*             <Section topic="GestionDeGobierno" publicView={true} color=''></Section>
+            {/*             <Section topic="GestionDeGobierno" publicView={true} color=''></Section>
                 <Section topic="Cultura" publicView={true} color=''></Section> */}
             <Section topic="Internacional" publicView={true} color=''></Section>
-{/*             <Section topic="Empresarial" publicView={true} color=''></Section>*/} 
-          </>} 
+            {/*             <Section topic="Empresarial" publicView={true} color=''></Section>*/}
+          </>}
 
 
         </div>
