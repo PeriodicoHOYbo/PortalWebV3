@@ -149,7 +149,7 @@ function Layout({ children }) {
                                     <div className='block w-full'>Nº de Visitas HOY <br />  </div>
                                     <div className={style.container}>
                                         <span className={style.time} style={{ fontSize: '35px', color: 'white', height: '50px' }}>
-                                            {Math.round((new Date().getTime() - new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate()).getTime()) / 6000 * 2.5) }
+                                            {Math.round((new Date().getTime() - new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate()).getTime()) / 6000 * 7) }
                                         </span>
                                     </div>
                                 </div>
