@@ -38,7 +38,7 @@
     /* height: 42px; */
     width: 100%;
     margin-bottom: 5px;
-    border-bottom: 8px solid brown;
+    border-bottom: 0px solid brown;
 
 }
 
@@ -116,10 +116,10 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(auto-fit, 150px);
     grid-column-gap: 20px;
-    grid-row-gap: 7px;
-    margin-top: 15px;
+    grid-row-gap: 10px;
+    margin-top: 5px;
 
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     color: transparent;
     font-size: 16px;
     text-align: center;
