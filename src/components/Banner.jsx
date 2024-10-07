@@ -60,9 +60,10 @@ export default function Banner({ ruta, carpeta, click }) {
                                             :
                                             <>
                                                 <button className={styles.editButton}>Edit</button>
-                                                {userDB[ruta][`${carpeta}`][i].enlace && userDB[ruta][`${carpeta}`][i].enlace.includes('https://www.youtube')
+                                                {(userDB[ruta][`${carpeta}`][i].enlace && userDB[ruta][`${carpeta}`][i].enlace.includes('https://www.youtube'))||(userDB[ruta][`${carpeta}`][i].enlace && userDB[ruta][`${carpeta}`][i].enlace.includes('drive.google.com'))
                                                     ? <iframe
-                                                        className={`${styles.responsiveIframe} h-[200px] md:h-[300px]`}
+                                                        className={`${styles.responsiveIframe}`}
+                                                        width="750" height="500"
                                                         src={userDB[ruta][`${carpeta}`][i].enlace.includes('https://www.youtube') ? userDB[ruta][`${carpeta}`][i].enlace.replace('/watch?v=', '/embed/') + '?showinfo=0' : userDB[ruta][`${carpeta}`][i].enlace}
                                                         title="YouTube video player"
                                                         frameborder="0"
@@ -78,7 +79,7 @@ export default function Banner({ ruta, carpeta, click }) {
                                             ?
                                             <img className={styles.sliderIMG} src={userDB[ruta][`${carpeta}`][i].url} />
                                             : <>
-                                                {userDB[ruta][`${carpeta}`][i].enlace && userDB[ruta][`${carpeta}`][i].enlace.includes('https://www.youtube')
+                                                {(userDB[ruta][`${carpeta}`][i].enlace && userDB[ruta][`${carpeta}`][i].enlace.includes('https://www.youtube'))||(userDB[ruta][`${carpeta}`][i].enlace && userDB[ruta][`${carpeta}`][i].enlace.includes('drive.google.com'))
                                                     ? <iframe
                                                         className={`${styles.responsiveIframe} h-[200px] md:h-[300px]`}
                                                         src={userDB[ruta][`${carpeta}`][i].enlace.includes('https://www.youtube') ? userDB[ruta][`${carpeta}`][i].enlace.replace('/watch?v=', '/embed/') + '?showinfo=0' : userDB[ruta][`${carpeta}`][i].enlace}
