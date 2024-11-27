@@ -162,25 +162,25 @@ function Home() {
 
           {showImg == false && showVideo == false && <>
             <Section topic="Inicio" publicView={true} color=''></Section>
-            <video width="750" height="500" controls autoPlay={true} >
+            <video className='h-[70vh]' width="750" height="500" controls autoPlay={true} >
               <source src='/1.mp4' type="video/mp4" />
             </video>
             
             <Section topic="Sociedad" publicView={true} color=''></Section>
-            <video width="750" height="500" controls autoPlay={true} >
+            <video className='h-[70vh]' width="750" height="500" controls autoPlay={true} >
               <source src='/2.mp4' type="video/mp4" />
             </video>
             {/*             <Section topic="Salud" publicView={true} color=''></Section> */}
             <Section topic="Seguridad" publicView={true} color=''></Section>
-            <video width="750" height="500" controls autoPlay={true} >
+            <video className='h-[70vh]' width="750" height="500" controls autoPlay={true} >
               <source src='/3.mp4' type="video/mp4" />
             </video>
             <Section topic="Politica" publicView={true} color=''></Section>
-            <video width="750" height="500" controls autoPlay={true} >
+            <video className='h-[70vh]' width="750" height="500" controls autoPlay={true} >
               <source src='/4.mp4' type="video/mp4" />
             </video>
             <Section topic="Economia" publicView={true} color=''></Section>
-            <video width="750" height="500" controls autoPlay={true} >
+            <video className='h-[70vh]' width="750" height="500" controls autoPlay={true} >
               <source src='/5.mp4' type="video/mp4" />
             </video>
             <Section topic="Deportes" publicView={true} color=''></Section>
