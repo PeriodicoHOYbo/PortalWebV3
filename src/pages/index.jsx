@@ -173,28 +173,32 @@ function Home() {
             </video>
             {/*             <Section topic="Salud" publicView={true} color=''></Section> */}
             <Section topic="Seguridad" publicView={true} color=''></Section>
-            <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
-              <source src='/3.mp4' type="video/mp4" />
-            </video>
-            <Section topic="Politica" publicView={true} color=''></Section>
+
             <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
               <source src='/4.mp4' type="video/mp4" />
             </video>
-            <Section topic="Economia" publicView={true} color=''></Section>
-            <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
-              <source src='/5.mp4' type="video/mp4" />
-            </video>
-            <Section topic="Deportes" publicView={true} color=''></Section>
+            <Section topic="Politica" publicView={true} color=''></Section>
+
             <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
               <source src='/6.mp4' type="video/mp4" />
             </video>
+            <Section topic="Economia" publicView={true} color=''></Section>
+            {/* <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
+              <source src='/5.mp4' type="video/mp4" />
+            </video> */}
+
+            <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
+              <source src='/7.mp4' type="video/mp4" />
+            </video>
+            <Section topic="Deportes" publicView={true} color=''></Section>
+          {/* <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
+              <source src='/3.mp4' type="video/mp4" />
+            </video> */}
             {/*             <Section topic="GestionDeGobierno" publicView={true} color=''></Section>
                 <Section topic="Cultura" publicView={true} color=''></Section> */}
             <Section topic="Internacional" publicView={true} color=''></Section>
             {/*             <Section topic="Empresarial" publicView={true} color=''></Section>*/}
-            <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
-              <source src='/7.mp4' type="video/mp4" />
-            </video>
+
           </>}
 
 
