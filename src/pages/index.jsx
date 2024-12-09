@@ -191,9 +191,9 @@ function Home() {
             {/*             <Section topic="GestionDeGobierno" publicView={true} color=''></Section>
                 <Section topic="Cultura" publicView={true} color=''></Section> */}
             <Section topic="Internacional" publicView={true} color=''></Section>
-            {/* <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
+            <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
               <source src='/7.mp4' type="video/mp4" />
-            </video> */}
+            </video>
             {/*             <Section topic="Empresarial" publicView={true} color=''></Section>*/}
 
           </>}
