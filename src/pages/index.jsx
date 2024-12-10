@@ -161,7 +161,9 @@ function Home() {
           }
 
           {showImg == false && showVideo == false && <>
-
+            <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
+              <source src='/8.mp4' type="video/mp4" />
+            </video>
             <Section topic="Inicio" publicView={true} color=''></Section>
             <video className='h-[70vh]' width="750" height="500" controls autoPlay={true} >
               <source src='/1.mp4' type="video/mp4" />
