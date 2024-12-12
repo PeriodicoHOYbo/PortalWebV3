@@ -162,31 +162,57 @@ function Home() {
           }
 
           {showImg == false && showVideo == false && <>
+
+
             <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
               <source src='/8.mp4' type="video/mp4" />
             </video>
             <Section topic="Inicio" publicView={true} color=''></Section>
-            {/* <video className='h-[70vh]' width="750" height="500" controls autoPlay={true} >
-              <source src='/1.mp4' type="video/mp4" />
-            </video> */}
+            <div className='w-full md:flex md:justify-around'>
+              <iframe
+                src="https://drive.google.com/file/d/1fYYGECMFCIOmdsLBoShDlnPNBsAzq7Jb/preview"
+                width="426"
+                height="320"
+              ></iframe>
+
+              <iframe src="https://drive.google.com/file/d/1q-X0wycbrmXuv4XrJXHfygIXDHlP8uFn/preview"
+                width="426"
+                height="320"
+              ></iframe>
+            </div>
+
+
+
 
             <Section topic="Sociedad" publicView={true} color=''></Section>
-            {/* <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
-              <source src='/2.mp4' type="video/mp4" />
-            </video> */}
+            <div className='w-full md:flex md:justify-around'>
+            <iframe src="https://drive.google.com/file/d/1BnVzVAhnuOLCjrMX35UVHB7TiEKI2-Oz/preview" width="426" height="320" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1vX_rfzh6P4BLhDQ41LY9NZbTvkuWtFSX/preview" width="426" height="320" allow="autoplay"></iframe>
+            </div>
+
+
             {/*             <Section topic="Salud" publicView={true} color=''></Section> */}
             <Section topic="Seguridad" publicView={true} color=''></Section>
-            {/* <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
-              <source src='/3.mp4' type="video/mp4" />
-            </video> */}
+            <div className='w-full md:flex md:justify-around'>
+            <iframe src="https://drive.google.com/file/d/1XdNETjkOVLx85osyWJqV1hKipXFNba4T/preview" width="426" height="320" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1WS_R_2nbvx8XS7QSE-G2NLujOE0SJhA-/preview" width="426" height="320" allow="autoplay"></iframe>
+            </div>
+
+
             <Section topic="Politica" publicView={true} color=''></Section>
-            {/* <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
-              <source src='/4.mp4' type="video/mp4" />
-            </video> */}
+            <div className='w-full md:flex md:justify-around'>
+            <iframe src="https://drive.google.com/file/d/1_o2mmUV0uvQUPcv52ceeny18tlmj383n/preview" width="426" height="320" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1eEfUSUTa0L8XMMXzKpwBdPcu0WA9NaEt/preview" width="426" height="320" allow="autoplay"></iframe>
+            </div>
+
+
             <Section topic="Economia" publicView={true} color=''></Section>
-            {/* <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
-              <source src='/5.mp4' type="video/mp4" />
-            </video> */}
+            <div className='w-full md:flex md:justify-around'>
+            <iframe src="https://drive.google.com/file/d/1HCjkE_mmGwR0deFcJpQ-cK6g-TAEctcO/preview" width="426" height="320" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1n3IUXApTaa_Y9nhAa6HOleJFuBCXrPQ5/preview" width="426" height="320" allow="autoplay"></iframe>
+            </div>
+
+
             <Section topic="Deportes" publicView={true} color=''></Section>
             {/* <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
               <source src='/6.mp4' type="video/mp4" />
