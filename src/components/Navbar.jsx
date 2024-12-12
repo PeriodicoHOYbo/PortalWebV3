@@ -100,9 +100,9 @@ export default function Navbar() {
 {/*                     <Link href="#Empresarial" legacyBehavior scroll={false}>
                         <a className={`${style.link} ${pathname == "#Empresarial" ? style.active : ''}`} onClick={handlerClick}>EMPRESARIAL</a>
                     </Link> */}
-                    {/* <Link href="#" legacyBehavior scroll={false}>
-                        <a className={`${style.link} ${pathname == "#Imagenes" ? style.active : ''}`} onClick={handleClick}>IMÁGENES</a>
-                    </Link> */}
+                    <Link href="/EspacioSolicitado" legacyBehavior scroll={false}>
+                        <a className={`${style.link} ${pathname == "#Imagenes" ? style.active : ''}`} onClick={handleClick}>ESPACIO SOLICITADO</a>
+                    </Link>
                     <Link href="#Videos" legacyBehavior scroll={false}>
                         <a className={`${style.link} ${pathname == "#Videos" ? style.active : ''}`} onClick={()=>handleClickYT('YouTube')}>VIDEOS</a>
                     </Link>

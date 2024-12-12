@@ -20,6 +20,7 @@ import { useEffect, useState } from 'react'
 import { listAll } from 'firebase/storage'
 import Temporizador from '../components/Temporizador'
 import EdicionDigital from '../components/EdicionDigital'
+import VideosSolicitados from '../components/VideosSolicitados'
 
 const YOUTUBE_PLAYLIST_ITEMS_API = 'https://www.googleapis.com/youtube/v3/playlistItems'
 const YOUTUBE_API_KEY = "AIzaSyBZkk7x_tGRbf-Yg_A7Y9QYcBQe7T9QtWU"
@@ -86,6 +87,11 @@ function Home() {
 
 
 
+
+
+
+
+
   return (
     <>
 
@@ -100,11 +106,6 @@ function Home() {
       <Layout>
         <div className={styles.main}>
           <Header></Header>
-
-
-
-
-
           {showVideo === 'EdicionDigital' && <EdicionDigital></EdicionDigital>}
 
           {showImg &&
@@ -165,31 +166,31 @@ function Home() {
               <source src='/8.mp4' type="video/mp4" />
             </video> */}
             <Section topic="Inicio" publicView={true} color=''></Section>
-            <video className='h-[70vh]' width="750" height="500" controls autoPlay={true} >
+            {/* <video className='h-[70vh]' width="750" height="500" controls autoPlay={true} >
               <source src='/1.mp4' type="video/mp4" />
-            </video>
+            </video> */}
 
             <Section topic="Sociedad" publicView={true} color=''></Section>
-            <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
+            {/* <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
               <source src='/2.mp4' type="video/mp4" />
-            </video>
+            </video> */}
             {/*             <Section topic="Salud" publicView={true} color=''></Section> */}
             <Section topic="Seguridad" publicView={true} color=''></Section>
-            <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
+            {/* <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
               <source src='/3.mp4' type="video/mp4" />
-            </video>
+            </video> */}
             <Section topic="Politica" publicView={true} color=''></Section>
-            <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
+            {/* <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
               <source src='/4.mp4' type="video/mp4" />
-            </video>
+            </video> */}
             <Section topic="Economia" publicView={true} color=''></Section>
-            <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
+            {/* <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
               <source src='/5.mp4' type="video/mp4" />
-            </video>
+            </video> */}
             <Section topic="Deportes" publicView={true} color=''></Section>
-            <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
+            {/* <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
               <source src='/6.mp4' type="video/mp4" />
-            </video>
+            </video> */}
             {/*             <Section topic="GestionDeGobierno" publicView={true} color=''></Section>
                 <Section topic="Cultura" publicView={true} color=''></Section> */}
             <Section topic="Internacional" publicView={true} color=''></Section>

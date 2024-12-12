@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { useRouter,usePathname } from 'next/navigation'
+import { useRouter, usePathname } from 'next/navigation'
 import { useUser } from '../context/Context.js'
 import { useEffect, useState, useRef } from 'react'
 
@@ -72,7 +72,7 @@ export default function Navbar({ footer }) {
                 <Link href="/#Sociedad" legacyBehavior scroll={false}>
                     <a className={`${style.link} ${pathname == "#Sociedad" ? style.active : ''}`} onClick={handlerClick}>SOCIEDAD</a>
                 </Link>
-{/*                 <Link href="/#Salud" legacyBehavior scroll={false}>
+                {/*                 <Link href="/#Salud" legacyBehavior scroll={false}>
                     <a className={`${style.link} ${pathname == "#Salud" ? style.active : ''}`} onClick={handlerClick}>CIUDADES</a>
                 </Link> */}
                 <Link href="/#Seguridad" legacyBehavior scroll={false}>
@@ -87,7 +87,7 @@ export default function Navbar({ footer }) {
                 <Link href="/#Deportes" legacyBehavior scroll={false}>
                     <a className={`${style.link} ${pathname == "#Deportes" ? style.active : ''}`} onClick={handlerClick}>DEPORTES</a>
                 </Link>
-{/*                 <Link href="/#GestionDeGobierno" legacyBehavior scroll={false}>
+                {/*                 <Link href="/#GestionDeGobierno" legacyBehavior scroll={false}>
                     <a className={`${style.link} ${pathname == "#GestionDeGobierno" ? style.active : ''}`} onClick={handlerClick}>GESTIÓN DE GOBIERNO</a>
                 </Link>
                 <Link href="/#Cultura" legacyBehavior scroll={false}>
@@ -96,7 +96,7 @@ export default function Navbar({ footer }) {
                 <Link href="/#Internacional" legacyBehavior scroll={false}>
                     <a className={`${style.link} ${pathname == "#Internacional" ? style.active : ''}`} onClick={handlerClick}>INTERNACIONAL</a>
                 </Link>
-{/*                 <Link href="#Empresarial" legacyBehavior scroll={false}>
+                {/*                 <Link href="#Empresarial" legacyBehavior scroll={false}>
                     <a className={`${style.link} ${pathname == "#Empresarial" ? style.active : ''}`} onClick={handlerClick}>EMPRESARIAL</a>
                 </Link> */}
                 {/* <Link href="/#Opinion" legacyBehavior scroll={false}>
@@ -108,6 +108,9 @@ export default function Navbar({ footer }) {
                 {/* <Link href="#" legacyBehavior scroll={false}>
                         <a className={`${style.link} ${pathname == "#Imagenes" ? style.active : ''}`} onClick={handleClick}>IMÁGENES</a>
                     </Link>   */}
+                <Link href="/EspacioSolicitado" legacyBehavior scroll={false}>
+                    <a className={`${style.link} ${pathname == "#Imagenes" ? style.active : ''}`} onClick={handleClick}>ESPACIO SOLICITADO</a>
+                </Link>
                 <Link href="/#Videos" legacyBehavior scroll={false}>
                     <a className={`${style.link} ${pathname == "#Videos" ? style.active : ''}`} onClick={handleClickYT}>VIDEOS</a>
                 </Link>
