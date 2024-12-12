@@ -1,3 +1,4 @@
+'use client'
 import React, { useState, useEffect } from "react";
 
 
@@ -102,15 +103,94 @@ const videoArr = [
   "98.mp4?alt=media&token=287ed6cd-b972-44f6-8b5e-d9505b2846a0"
 ]
 
-const VideoPlayer = ({ videoURL }) => {
+
+
+
+const VideoPlayer = () => {
+  const [currentPage, setCurrentPage] = useState(1);
+  const [currentVideos, setCurrentVideos] = useState([]);
+  const videosPerPage = 6; // Número de videos por página
+  const maxPageNumbersToShow = 5; // Máximo de números de página a mostrar
+
+  // Total de páginas
+  const totalPages = Math.ceil(videoArr.length / videosPerPage);
+
+  // Actualiza los videos de la página actual cuando `currentPage` cambia
+  useEffect(() => {
+    const startIndex = (currentPage - 1) * videosPerPage;
+    const endIndex = currentPage * videosPerPage;
+    const videosToDisplay = videoArr.slice(startIndex, endIndex);
+    
+    console.log("Videos a mostrar para la página", currentPage, videosToDisplay); // Agrega esto para depuración
+
+    setCurrentVideos(videosToDisplay);
+  }, [currentPage]);  // Reacciona solo al cambio de `currentPage`
+
+  // Cambiar de página
+  const handlePageChange = (page) => {
+    if (page >= 1 && page <= totalPages) {
+      setCurrentPage(page);
+    }
+  };
+
+  // Calcular el rango de páginas visibles
+  const calculatePageNumbers = () => {
+    const halfRange = Math.floor(maxPageNumbersToShow / 2);
+    let startPage = Math.max(currentPage - halfRange, 1);
+    let endPage = Math.min(startPage + maxPageNumbersToShow - 1, totalPages);
+
+    if (endPage - startPage + 1 < maxPageNumbersToShow) {
+      startPage = Math.max(endPage - maxPageNumbersToShow + 1, 1);
+    }
+
+    return Array.from({ length: endPage - startPage + 1 }, (_, i) => startPage + i);
+  };
+
   return (
-    <div className="flex flex-col md:grid md:grid-cols-3">
-      {videoArr.map((i, index) => {
-        return <video controls width="640" key={index}>
-          <source src={`https://firebasestorage.googleapis.com/v0/b/varios-ae38b.appspot.com/o/${i}`} type="video/mp4" />
-          Tu navegador no soporta la reproducción de videos.
-        </video>
-      })}
+    <div className="flex flex-col items-center">
+      {/* Contenedor de videos */}
+      <div className="grid gap-4 md:grid-cols-3">
+        {currentVideos.map((video, index) => (
+          <video controls width="320" key={video}>
+            <source
+              src={`https://firebasestorage.googleapis.com/v0/b/varios-ae38b.appspot.com/o/${video}`}
+              type="video/mp4"
+            />
+            Tu navegador no soporta la reproducción de videos.
+          </video>
+        ))}
+      </div>
+
+      {/* Controles de paginación */}
+      <div className="flex justify-center gap-2 mt-4">
+        <button
+          className="px-4 py-2 bg-gray-300 rounded disabled:opacity-50"
+          disabled={currentPage === 1}
+          onClick={() => handlePageChange(currentPage - 1)}
+        >
+          Anterior
+        </button>
+        {calculatePageNumbers().map((page) => (
+          <button
+            key={page}
+            className={`px-4 py-2 rounded ${
+              currentPage === page
+                ? "bg-[#00404af3] text-white"
+                : "bg-gray-300 text-black"
+            }`}
+            onClick={() => handlePageChange(page)}
+          >
+            {page}
+          </button>
+        ))}
+        <button
+          className="px-4 py-2 bg-gray-300 rounded disabled:opacity-50"
+          disabled={currentPage === totalPages}
+          onClick={() => handlePageChange(currentPage + 1)}
+        >
+          Siguiente
+        </button>
+      </div>
     </div>
   );
 };
