@@ -109,7 +109,7 @@ const videoArr = [
 const VideoPlayer = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [currentVideos, setCurrentVideos] = useState([]);
-  const videosPerPage = 3; // Número de videos por página
+  const videosPerPage = 2; // Número de videos por página
   const maxPageNumbersToShow = 5; // Máximo de números de página a mostrar
 
   // Total de páginas
@@ -149,7 +149,7 @@ const VideoPlayer = () => {
   return (
     <div className="flex flex-col items-center">
       {/* Contenedor de videos */}
-      <div className="grid gap-4 md:grid-cols-3">
+      <div className="grid gap-4 md:grid-cols-2">
         {currentVideos.map((video, index) => (
           <video controls width="320" key={video}>
             <source
