@@ -109,7 +109,7 @@ const videoArr = [
 const VideoPlayer = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [currentVideos, setCurrentVideos] = useState([]);
-  const videosPerPage = 6; // Número de videos por página
+  const videosPerPage = 3; // Número de videos por página
   const maxPageNumbersToShow = 5; // Máximo de números de página a mostrar
 
   // Total de páginas
