@@ -106,7 +106,7 @@ const VideoPlayer = ({ videoURL }) => {
   return (
     <div className="flex flex-col md:grid md:grid-cols-3">
       {videoArr.map((i, index) => {
-        return <video controls width="640">
+        return <video controls width="640" key={index}>
           <source src={`https://firebasestorage.googleapis.com/v0/b/varios-ae38b.appspot.com/o/${i}`} type="video/mp4" />
           Tu navegador no soporta la reproducción de videos.
         </video>
