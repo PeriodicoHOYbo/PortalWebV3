@@ -169,13 +169,12 @@ function Home() {
             </video>
             <Section topic="Inicio" publicView={true} color=''></Section>
             <div className='w-full md:flex md:justify-around'>
+             
+            <iframe src="https://drive.google.com/file/d/1iWVeinOoN36HnUdWOsDPpaL9LHStPOHR/preview" width="640" height="480" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1oa6MIucATPTp19fBAm6nKkiQ0VEr9Vg9/preview" width="640" height="480" allow="autoplay"></iframe>
+             
               <iframe
                 src="https://drive.google.com/file/d/1fYYGECMFCIOmdsLBoShDlnPNBsAzq7Jb/preview"
-                width="426"
-                height="320"
-              ></iframe>
-
-              <iframe src="https://drive.google.com/file/d/1q-X0wycbrmXuv4XrJXHfygIXDHlP8uFn/preview"
                 width="426"
                 height="320"
               ></iframe>
@@ -186,31 +185,29 @@ function Home() {
 
             <Section topic="Sociedad" publicView={true} color=''></Section>
             <div className='w-full md:flex md:justify-around'>
-            <iframe src="https://drive.google.com/file/d/1BnVzVAhnuOLCjrMX35UVHB7TiEKI2-Oz/preview" width="426" height="320" allow="autoplay"></iframe>
-            <iframe src="https://drive.google.com/file/d/1vX_rfzh6P4BLhDQ41LY9NZbTvkuWtFSX/preview" width="426" height="320" allow="autoplay"></iframe>
-            </div>
+            <iframe src="https://drive.google.com/file/d/17H1F6ChiLFl4-SB8OJ4SsohWNYafYmCz/preview" width="640" height="480" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1u4BZyQmzhPRdJ53KnZUVcSZ4qR5ozgGK/preview" width="640" height="480" allow="autoplay"></iframe>
+     </div>
 
 
             {/*             <Section topic="Salud" publicView={true} color=''></Section> */}
             <Section topic="Seguridad" publicView={true} color=''></Section>
             <div className='w-full md:flex md:justify-around'>
-            <iframe src="https://drive.google.com/file/d/1XdNETjkOVLx85osyWJqV1hKipXFNba4T/preview" width="426" height="320" allow="autoplay"></iframe>
-            <iframe src="https://drive.google.com/file/d/1WS_R_2nbvx8XS7QSE-G2NLujOE0SJhA-/preview" width="426" height="320" allow="autoplay"></iframe>
-            </div>
+            <iframe src="https://drive.google.com/file/d/1dLyIA034blEP9u4eF-0_jGaiEjHXlwDV/preview" width="640" height="480" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/182apkBK3fFgv-LPaSbKRKoYn4wWJzRoj/preview" width="640" height="480" allow="autoplay"></iframe>
+       </div>
 
 
             <Section topic="Politica" publicView={true} color=''></Section>
             <div className='w-full md:flex md:justify-around'>
-            <iframe src="https://drive.google.com/file/d/1_o2mmUV0uvQUPcv52ceeny18tlmj383n/preview" width="426" height="320" allow="autoplay"></iframe>
-            <iframe src="https://drive.google.com/file/d/1eEfUSUTa0L8XMMXzKpwBdPcu0WA9NaEt/preview" width="426" height="320" allow="autoplay"></iframe>
-            </div>
+            <iframe src="https://drive.google.com/file/d/1cZbxaSgZpDVLXEZ4zvyb08t88p6uAcyJ/preview" width="640" height="480" allow="autoplay"></iframe>
+       </div>
 
 
             <Section topic="Economia" publicView={true} color=''></Section>
             <div className='w-full md:flex md:justify-around'>
-            <iframe src="https://drive.google.com/file/d/1HCjkE_mmGwR0deFcJpQ-cK6g-TAEctcO/preview" width="426" height="320" allow="autoplay"></iframe>
-            <iframe src="https://drive.google.com/file/d/1n3IUXApTaa_Y9nhAa6HOleJFuBCXrPQ5/preview" width="426" height="320" allow="autoplay"></iframe>
-            </div>
+            <iframe src="https://drive.google.com/file/d/14bQtYt5mJj00-0uI6QBJuvrJ2MAjgxIi/preview" width="640" height="480" allow="autoplay"></iframe>
+   </div><iframe src="https://drive.google.com/file/d/1I-bP-vAxvLovvAewj1UGP-JExZCyX9yb/preview" width="640" height="480" allow="autoplay"></iframe>
 
 
             <Section topic="Deportes" publicView={true} color=''></Section>
