@@ -169,40 +169,36 @@ function Home() {
             </video>
             <Section topic="Inicio" publicView={true} color=''></Section>
             <div className='w-full md:flex md:justify-around'>
-              <iframe src="https://drive.google.com/file/d/1iWVeinOoN36HnUdWOsDPpaL9LHStPOHR/preview" width="426" height="320" allow="autoplay"></iframe>
-              <iframe src="https://drive.google.com/file/d/1oa6MIucATPTp19fBAm6nKkiQ0VEr9Vg9/preview" width="426" height="320" allow="autoplay"></iframe>
-            </div>
+            <iframe src="https://drive.google.com/file/d/17lUdav2xx-7EkxTO9c4QFnljsDV3vGo-/preview" width="640" height="480" allow="autoplay"></iframe>         
+            <iframe src="https://drive.google.com/file/d/162ss5bX3SzpmHgkeHoujgkrmmN8tfCAD/preview" width="640" height="480" allow="autoplay"></iframe>            </div>
 
 
 
 
             <Section topic="Sociedad" publicView={true} color=''></Section>
             <div className='w-full md:flex md:justify-around'>
-              <iframe src="https://drive.google.com/file/d/17H1F6ChiLFl4-SB8OJ4SsohWNYafYmCz/preview" width="426" height="320" allow="autoplay"></iframe>
-              <iframe src="https://drive.google.com/file/d/1u4BZyQmzhPRdJ53KnZUVcSZ4qR5ozgGK/preview" width="426" height="320" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1Vf0FQ0W0Yh5LHVDdvxyOWMpnAd1N-VKC/preview" width="640" height="480" allow="autoplay"></iframe>     
+            <iframe src="https://drive.google.com/file/d/1H_Om1NpSvqTU1IawuWES6ZVa61cqqODy/preview" width="640" height="480" allow="autoplay"></iframe>
             </div>
 
 
             {/*             <Section topic="Salud" publicView={true} color=''></Section> */}
             <Section topic="Seguridad" publicView={true} color=''></Section>
             <div className='w-full md:flex md:justify-around'>
-              <iframe src="https://drive.google.com/file/d/1dLyIA034blEP9u4eF-0_jGaiEjHXlwDV/preview" width="426" height="320" allow="autoplay"></iframe>
-              <iframe src="https://drive.google.com/file/d/182apkBK3fFgv-LPaSbKRKoYn4wWJzRoj/preview" width="426" height="320" allow="autoplay"></iframe>
-            </div>
+            <iframe src="https://drive.google.com/file/d/1UHZO8iVCdbeSFI4wFKvP3LNpw3QxLavi/preview" width="640" height="480" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1_l7d6iCb1dHovwe6mPBAnbtrOeMNTPCu/preview" width="640" height="480" allow="autoplay"></iframe>            </div>
 
 
             <Section topic="Politica" publicView={true} color=''></Section>
             <div className='w-full md:flex md:justify-around'>
-            <iframe src="https://drive.google.com/file/d/1zBvlUlf6lfYDxPNc4HjBQGG2MOUOdkI-/preview" width="426" height="320" allow="autoplay"></iframe>
-              <iframe src="https://drive.google.com/file/d/1cZbxaSgZpDVLXEZ4zvyb08t88p6uAcyJ/preview" width="426" height="320" allow="autoplay"></iframe>
-            </div>
+            <iframe src="https://drive.google.com/file/d/1QSnAAe8lZ2zJcR_lJYUb3TnLK60OrG93/preview" width="640" height="480" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1cTHCfyjm1McFbZDYNfD1brewtZ3hiAwy/preview" width="640" height="480" allow="autoplay"></iframe>            </div>
 
 
             <Section topic="Economia" publicView={true} color=''></Section>
             <div className='w-full md:flex md:justify-around'>
-              <iframe src="https://drive.google.com/file/d/14bQtYt5mJj00-0uI6QBJuvrJ2MAjgxIi/preview" width="426" height="320" allow="autoplay"></iframe>
-              <iframe src="https://drive.google.com/file/d/1I-bP-vAxvLovvAewj1UGP-JExZCyX9yb/preview" width="426" height="320" allow="autoplay"></iframe>
-            </div>
+            <iframe src="https://drive.google.com/file/d/1bdl4SNmbW3StJgCtR4708ARRZpiSYHtw/preview" width="640" height="480" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1uH36TH_qiP7AurhatTS9INzgnXpRVwxz/preview" width="640" height="480" allow="autoplay"></iframe>            </div>
 
 
             <Section topic="Deportes" publicView={true} color=''></Section>
