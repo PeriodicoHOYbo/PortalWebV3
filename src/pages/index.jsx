@@ -169,8 +169,8 @@ function Home() {
             </video>
             <Section topic="Inicio" publicView={true} color=''></Section>
             <div className='w-full md:flex md:justify-around'>
-              <iframe src="https://drive.google.com/file/d/1iWVeinOoN36HnUdWOsDPpaL9LHStPOHR/preview" width="640" height="480" allow="autoplay"></iframe>
-              <iframe src="https://drive.google.com/file/d/1oa6MIucATPTp19fBAm6nKkiQ0VEr9Vg9/preview" width="640" height="480" allow="autoplay"></iframe>
+              <iframe src="https://drive.google.com/file/d/1iWVeinOoN36HnUdWOsDPpaL9LHStPOHR/preview" width="213" height="160" allow="autoplay"></iframe>
+              <iframe src="https://drive.google.com/file/d/1oa6MIucATPTp19fBAm6nKkiQ0VEr9Vg9/preview" width="213" height="160" allow="autoplay"></iframe>
             </div>
 
 
@@ -178,29 +178,30 @@ function Home() {
 
             <Section topic="Sociedad" publicView={true} color=''></Section>
             <div className='w-full md:flex md:justify-around'>
-              <iframe src="https://drive.google.com/file/d/17H1F6ChiLFl4-SB8OJ4SsohWNYafYmCz/preview" width="640" height="480" allow="autoplay"></iframe>
-              <iframe src="https://drive.google.com/file/d/1u4BZyQmzhPRdJ53KnZUVcSZ4qR5ozgGK/preview" width="640" height="480" allow="autoplay"></iframe>
+              <iframe src="https://drive.google.com/file/d/17H1F6ChiLFl4-SB8OJ4SsohWNYafYmCz/preview" width="213" height="160" allow="autoplay"></iframe>
+              <iframe src="https://drive.google.com/file/d/1u4BZyQmzhPRdJ53KnZUVcSZ4qR5ozgGK/preview" width="213" height="160" allow="autoplay"></iframe>
             </div>
 
 
             {/*             <Section topic="Salud" publicView={true} color=''></Section> */}
             <Section topic="Seguridad" publicView={true} color=''></Section>
             <div className='w-full md:flex md:justify-around'>
-              <iframe src="https://drive.google.com/file/d/1dLyIA034blEP9u4eF-0_jGaiEjHXlwDV/preview" width="640" height="480" allow="autoplay"></iframe>
-              <iframe src="https://drive.google.com/file/d/182apkBK3fFgv-LPaSbKRKoYn4wWJzRoj/preview" width="640" height="480" allow="autoplay"></iframe>
+              <iframe src="https://drive.google.com/file/d/1dLyIA034blEP9u4eF-0_jGaiEjHXlwDV/preview" width="213" height="160" allow="autoplay"></iframe>
+              <iframe src="https://drive.google.com/file/d/182apkBK3fFgv-LPaSbKRKoYn4wWJzRoj/preview" width="213" height="160" allow="autoplay"></iframe>
             </div>
 
 
             <Section topic="Politica" publicView={true} color=''></Section>
             <div className='w-full md:flex md:justify-around'>
-              <iframe src="https://drive.google.com/file/d/1cZbxaSgZpDVLXEZ4zvyb08t88p6uAcyJ/preview" width="640" height="480" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1zBvlUlf6lfYDxPNc4HjBQGG2MOUOdkI-/preview" width="213" height="160" allow="autoplay"></iframe>
+              <iframe src="https://drive.google.com/file/d/1cZbxaSgZpDVLXEZ4zvyb08t88p6uAcyJ/preview" width="213" height="160" allow="autoplay"></iframe>
             </div>
 
 
             <Section topic="Economia" publicView={true} color=''></Section>
             <div className='w-full md:flex md:justify-around'>
-              <iframe src="https://drive.google.com/file/d/14bQtYt5mJj00-0uI6QBJuvrJ2MAjgxIi/preview" width="640" height="480" allow="autoplay"></iframe>
-              <iframe src="https://drive.google.com/file/d/1I-bP-vAxvLovvAewj1UGP-JExZCyX9yb/preview" width="640" height="480" allow="autoplay"></iframe>
+              <iframe src="https://drive.google.com/file/d/14bQtYt5mJj00-0uI6QBJuvrJ2MAjgxIi/preview" width="213" height="160" allow="autoplay"></iframe>
+              <iframe src="https://drive.google.com/file/d/1I-bP-vAxvLovvAewj1UGP-JExZCyX9yb/preview" width="213" height="160" allow="autoplay"></iframe>
             </div>
 
 
