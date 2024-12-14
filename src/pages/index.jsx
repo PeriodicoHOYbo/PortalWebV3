@@ -173,11 +173,7 @@ function Home() {
             <iframe src="https://drive.google.com/file/d/1iWVeinOoN36HnUdWOsDPpaL9LHStPOHR/preview" width="640" height="480" allow="autoplay"></iframe>
             <iframe src="https://drive.google.com/file/d/1oa6MIucATPTp19fBAm6nKkiQ0VEr9Vg9/preview" width="640" height="480" allow="autoplay"></iframe>
              
-              <iframe
-                src="https://drive.google.com/file/d/1fYYGECMFCIOmdsLBoShDlnPNBsAzq7Jb/preview"
-                width="426"
-                height="320"
-              ></iframe>
+          
             </div>
 
 
