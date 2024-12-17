@@ -168,18 +168,18 @@ function Home() {
               <source src='/8.mp4' type="video/mp4" />
             </video>
             <Section topic="Inicio" publicView={true} color=''></Section>
-            <div className='w-full md:flex md:justify-around'>
+            {/* <div className='w-full md:flex md:justify-around'>
               <iframe src="https://drive.google.com/file/d/1rt57QoEJkAoBzowI86Fvp0AuqzwD0-QI/preview" width="640" height="480" allow="autoplay"></iframe>
-            </div>
+            </div> */}
             <Section topic="Sociedad" publicView={true} color=''></Section>
-            <div className='w-full md:flex md:justify-around'>
+            {/* <div className='w-full md:flex md:justify-around'>
               <iframe src="https://drive.google.com/file/d/1gkHqJFxahv6dyGx79-68vE6awutIL2o2/preview" width="640" height="480" allow="autoplay"></iframe>
-            </div>
+            </div> */}
             {/*             <Section topic="Salud" publicView={true} color=''></Section> */}
             <Section topic="Seguridad" publicView={true} color=''></Section>
-            <div className='w-full md:flex md:justify-around'>
+            {/* <div className='w-full md:flex md:justify-around'>
               <iframe src="https://drive.google.com/file/d/1YnVrhBkONMAKLzGk52lmFuVXzOTBC6r1/preview" width="640" height="480" allow="autoplay"></iframe>
-            </div>
+            </div> */}
             <Section topic="Politica" publicView={true} color=''></Section>
             <Section topic="Economia" publicView={true} color=''></Section>
             <Section topic="Deportes" publicView={true} color=''></Section>
