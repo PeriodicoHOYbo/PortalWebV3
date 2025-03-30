@@ -120,9 +120,9 @@ function TemplateFour({ color, topic, grid }) {
             <Fade cascade>
                 <div className='md:hidden'>
                     {topic === 'Sociedad' && <BannerLateral carpeta="BannerIzquierdo" items={[1]} click={handlerClickEnlace}></BannerLateral>}
-                    {topic === 'Salud' && <BannerLateral carpeta="BannerDerecho" items={[2]} click={handlerClickEnlace}></BannerLateral>}
+                    {topic === 'Salud' && <BannerLateral carpeta="BannerDerecho" items={[1]} click={handlerClickEnlace}></BannerLateral>}
                     {topic === 'Seguridad' && <BannerLateral carpeta="BannerIzquierdo" items={[2]} click={handlerClickEnlace}></BannerLateral>}
-                    {topic === 'Politica' && <BannerLateral carpeta="BannerDerecho" items={[3]} click={handlerClickEnlace}></BannerLateral>}
+                    {topic === 'Politica' && <BannerLateral carpeta="BannerDerecho" items={[2]} click={handlerClickEnlace}></BannerLateral>}
                     {topic === 'Economia' && <BannerLateral carpeta="BannerIzquierdo" items={[3]} click={handlerClickEnlace}></BannerLateral>}
                     {topic === 'Deportes' && <BannerLateral carpeta="BannerDerecho" items={[4]} click={handlerClickEnlace}></BannerLateral>}
                     {topic === 'GestionDeGobierno' && <BannerLateral carpeta="BannerIzquierdo" items={[4]} click={handlerClickEnlace}></BannerLateral>}
