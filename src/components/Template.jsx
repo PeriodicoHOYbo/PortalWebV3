@@ -124,7 +124,7 @@ function TemplateFour({ color, topic, grid }) {
                     {topic === 'Seguridad' && <BannerLateral carpeta="BannerIzquierdo" items={[2]} click={handlerClickEnlace}></BannerLateral>}
                     {topic === 'Politica' && <BannerLateral carpeta="BannerDerecho" items={[2]} click={handlerClickEnlace}></BannerLateral>}
                     {topic === 'Economia' && <BannerLateral carpeta="BannerIzquierdo" items={[3]} click={handlerClickEnlace}></BannerLateral>}
-                    {topic === 'Deportes' && <BannerLateral carpeta="BannerDerecho" items={[4]} click={handlerClickEnlace}></BannerLateral>}
+                    {topic === 'Deportes' && <BannerLateral carpeta="BannerDerecho" items={[3]} click={handlerClickEnlace}></BannerLateral>}
                     {topic === 'GestionDeGobierno' && <BannerLateral carpeta="BannerIzquierdo" items={[4]} click={handlerClickEnlace}></BannerLateral>}
                     {topic === 'Cultura' && <BannerLateral carpeta="BannerDerecho" items={[1]} click={handlerClickEnlace}></BannerLateral>}
                 </div>
