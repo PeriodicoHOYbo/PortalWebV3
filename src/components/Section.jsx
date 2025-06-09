@@ -141,7 +141,7 @@ export default function Section({ topic, publicView, color }) {
                         </>}
                         {tag === 'Modals' && <FormAddsC ruteDB={`/${topic}/Modals`} ruteSTG={`/${topic}/Modals`} id='BM' title='Añadir Modal' />}
                         {topic !== 'Inicio' && tag.includes('Notas') && <FormAddsC ruteDB={`/${topic}/${check.ruteDB}`} ruteSTG={`/${topic}/${check.ruteDB}`} id={check.id} title={check.title} />}
-                    </div>
+                    </div>     
                 </>
             }
             {tag === 'Modals' && <div className="columns-3 gap-3 pb-3">
