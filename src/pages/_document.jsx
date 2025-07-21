@@ -24,7 +24,18 @@ export default class MyDocument extends Document {
                     <meta name="description" content={`Periodico Hoy Siete Dias De información: Las noticias mas actualizadas a nivel nacional e internacional.`} />
                     {/* <meta property="og:image" content='/logo.png' /> */}
                     <title>Periodico Hoy</title>
-
+                    <Script
+                        src="https://www.googletagmanager.com/gtag/js?id=G-B23W0R9SHR"
+                        strategy="afterInteractive"
+                    />
+                    <Script id="google-analytics" strategy="afterInteractive">
+                        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-B23W0R9SHR');
+          `}
+                    </Script>
 
                 </Head>
 
