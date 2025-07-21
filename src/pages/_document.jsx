@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import Script from 'next/script'
+import { Analytics } from '@vercel/analytics/next';
 
 
 export default class MyDocument extends Document {
@@ -23,10 +24,13 @@ export default class MyDocument extends Document {
                     <meta name="description" content={`Periodico Hoy Siete Dias De información: Las noticias mas actualizadas a nivel nacional e internacional.`} />
                     {/* <meta property="og:image" content='/logo.png' /> */}
                     <title>Periodico Hoy</title>
+
+
                 </Head>
 
                 <body>
                     <Main />
+                    <Analytics />
                     <NextScript />
                 </body>
             </Html>
