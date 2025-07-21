@@ -25,7 +25,7 @@ export default class MyDocument extends Document {
                     {/* <meta property="og:image" content='/logo.png' /> */}
                     <title>Periodico Hoy</title>
                     <Script
-                        src="https://www.googletagmanager.com/gtag/js?id=G-B23W0R9SHR"
+                        src="https://www.googletagmanager.com/gtag/js?id=G-4WS12PYZ4R"
                         strategy="afterInteractive"
                     />
                     <Script id="google-analytics" strategy="afterInteractive">
@@ -33,7 +33,7 @@ export default class MyDocument extends Document {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-B23W0R9SHR');
+            gtag('config', 'G-4WS12PYZ4R');
           `}
                     </Script>
 
