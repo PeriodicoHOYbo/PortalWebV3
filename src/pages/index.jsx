@@ -163,9 +163,9 @@ function Home() {
 
           {showImg == false && showVideo == false && <>
 
-            <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
+{/*             <video className='h-[70vh]' width="750" height="500" controls autoPlay={false} >
               <source src='/v1.mp4' type="video/mp4" />
-            </video>
+            </video> */}
             <Section topic="Inicio" publicView={true} color=''></Section>
             {/* <div className='w-full md:flex md:justify-around'>
               <iframe src="https://drive.google.com/file/d/1rt57QoEJkAoBzowI86Fvp0AuqzwD0-QI/preview" width="640" height="480" allow="autoplay"></iframe>
